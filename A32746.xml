@@ -1,0 +1,966 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A conference of faith written in Latin by Sebastianus Castellio ; now translated into English.</title>
+            <title>De fide. English</title>
+            <author>Castellion, Sébastien, 1515-1563.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 67 KB of XML-encoded text transcribed from 40 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A32746</idno>
+            <idno type="STC">Wing C3731</idno>
+            <idno type="STC">ESTC R11201</idno>
+            <idno type="EEBO-CITATION">13115764</idno>
+            <idno type="OCLC">ocm 13115764</idno>
+            <idno type="VID">97751</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A32746)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 97751)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 411:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A conference of faith written in Latin by Sebastianus Castellio ; now translated into English.</title>
+                  <title>De fide. English</title>
+                  <author>Castellion, Sébastien, 1515-1563.</author>
+               </titleStmt>
+               <extent>[6], 73 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.R. for John Barksdale ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Translation of: De fide.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Faith --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:97751:1" rendition="simple:additions"/>
+            <p>A CONFERENCE OF FAITH. Written in Latin by SEBASTIANUS CASTELLIO. Now Tranſlated into Engliſh.</p>
+            <q>
+               <bibl>
+                  <hi>Mark 9.23.</hi>
+               </bibl> All things are poſſible to him that believeth.</q>
+            <q>
+               <bibl>
+                  <hi>Phil. 4.13.</hi>
+               </bibl> I can do all things through Chriſt.</q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. R.</hi> for <hi>John Barksdale</hi> at the Five Bells in <hi>New-ſtreet,</hi> near <hi>Shooe-lane,</hi> 1679.</p>
+         </div>
+         <div type="approbation">
+            <pb facs="tcp:97751:2"/>
+            <pb facs="tcp:97751:2"/>
+            <head>To his Friend <hi>D.</hi> of <hi>C.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>I Confeſs I was glad when I heard you lately (being with you in your well choſen Library) Commend <hi>Caſtellio;</hi> whoſe Dialogue <hi>De Fide,</hi> I told you I had Tranſlated, and taught <hi>Ludovic</hi> and <hi>Federic</hi> to ſpeak Engliſh. I ſhall be will<g ref="char:EOLhyphen"/>ing (as you mov'd me) to do the reſt, if I ſee this does any good to the Engliſh Reader, and ſerveth towards the pluck<g ref="char:EOLhyphen"/>ing up of that vulgar noxious Error concerning Faith, rooted in the hearts of our People ſo deep, that there is need of more hands to joyn with yours for
+<pb facs="tcp:97751:3"/> the Eradication thereof, I com<g ref="char:EOLhyphen"/>mend your holy Studies to the Father of Lights.</p>
+            <closer>
+               <signed>Your Servant, <hi>R.</hi> of <hi>N.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="approbation">
+            <head>Theodorus Zuingerus in The<g ref="char:EOLhyphen"/>atro vitae humanae. p. 2808.</head>
+            <p>
+               <hi>SEBASTIANUS CASTELLIO,</hi> a moſt Learned and moſt Holy man, when he came from <hi>Gene<g ref="char:EOLhyphen"/>va</hi> to <hi>Baſil</hi> with his Wife, was ſo preſſed with poverty, that he was near famiſhing, unleſs <hi>JOANNES OPORINUS</hi> the Printer had ſu<g ref="char:EOLhyphen"/>ſtained him by his Liberality, and encouraged him to the Tranſlati<g ref="char:EOLhyphen"/>on of the Bible. Having then ob<g ref="char:EOLhyphen"/>tained
+<pb facs="tcp:97751:3"/> the profeſſion of the Greek Tongue, he had greater relief of his poverty, eſpecially his Fame (which yet he never affected (as all good men can witneſs) drew unto him Scholars from the re<g ref="char:EOLhyphen"/>moteſt Nations. At his death he left Riches, worthy of a Chri<g ref="char:EOLhyphen"/>ſtian man, ſeeking his Treaſure in Heaven. Therefore his Scho<g ref="char:EOLhyphen"/>lars of <hi>Polonia</hi> were at the charge of his Funeral, and they honored him with a fair Elogy. He hath left ample matter for Pious and Learned men to exerciſe their li<g ref="char:EOLhyphen"/>berality upon, a good number of poor Children.</p>
+            <p>
+               <hi>He deceaſed 4. Cal.</hi> Jan. An. Ch. <hi>1563.</hi>
+            </p>
+         </div>
+         <div type="approbation">
+            <pb facs="tcp:97751:4"/>
+            <head>Philip. Melanch. <hi>to</hi> Caſtellio.</head>
+            <p>WHen I conſidered the Ornaments where<g ref="char:EOLhyphen"/>with you are endowed, I could not chuſe but love you, though we had no familiarity; and here are many Witneſſes, of the honorable mention I do of<g ref="char:EOLhyphen"/>ten make of you among my Friends.</p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb n="1" facs="tcp:97751:4"/>
+            <head>A CONFERENCE OF FAITH. The Perſons <hi>LUDOVIC</hi> and <hi>FEDERIC.</hi>
+            </head>
+            <argument>
+               <head>The Argument.</head>
+               <p>What it is to believe in God: What is the Vertue either of Worldly or of Divine Faith: What are the Impediments of Faith: By what means a man may be able to hate himſelf, and to renounce himſelf by Faith, and by the Spirit to kill the deeds of the Fleſh. In ſumm, He that believeth in God, and in his Son <hi>Jeſus Chriſt,</hi> is able by the Vertue of that Faith, and by the Holy Spirit, to mortifie his Fleſh with the Luſts thereof, and to ſerve God in Spirit and in Truth.</p>
+            </argument>
+            <sp>
+               <pb n="2" facs="tcp:97751:5"/>
+               <speaker>LUDOVIC.</speaker>
+               <p>
+                  <hi>I have willingly heard boſt yeſterday and to day, your diſcourſes, <hi>Federic,</hi> and I have learn<g ref="char:EOLhyphen"/>ed out of them many things whereof I was Ignorant: and that eſpecially moved me, which you ſhewed, that God commands nothing which cannot be done. For I was perſwaded before, as is it commonly heard and taught, that we are not able to Obey God's Precepts: which perſwaſion ſurely (that I may confeſs the truth to you, <hi>Federic,</hi>) made me ſlack in my obedi<g ref="char:EOLhyphen"/>ence, ſo that I never put my whole ſtrength toward it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>FEDERIC,</speaker>
+               <p>And I have found the ſame by my Experience, <hi>Ludo<g ref="char:EOLhyphen"/>vic;</hi> nor could I apply my ſelf truly and ſeriouſly to obey before I did believe it poſſible for us to obey. Whence I learned the force and vertue of Faith. For Faith drives a man to the ſtudy and reſolution
+<pb n="3" facs="tcp:97751:5"/> to obey. To which ſtudy afterward, when aid from Heaven is added, a man is enabled to do what he be<g ref="char:EOLhyphen"/>lieves poſſible to be done by him, and ſo is ſaved by obeying, as be<g ref="char:EOLhyphen"/>fore he was loſt by diſobeying. But 'tis a ſmall matter to believe obedi<g ref="char:EOLhyphen"/>ence is poſſible, unleſs you know alſo the way, by which you may be able to obey, without which o<g ref="char:EOLhyphen"/>bedience no man can be ſaved. I would have you aſſure your ſelf, <hi>Ludovic,</hi> ours and others Diſputa<g ref="char:EOLhyphen"/>tions are (that I ſay no worſe) un<g ref="char:EOLhyphen"/>profitable, except they bring us to obedience, and to the new man.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Theſe things are true,</hi> Fede<g ref="char:EOLhyphen"/>ric, <hi>therefore to the End I may reap ſome profit from our Conference, I en<g ref="char:EOLhyphen"/>treat you, ſhew me by what way I may be able to obey God, ſince by this your Speech of the poſſibility of it, I have conceived a deſire of Obeying.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="4" facs="tcp:97751:6"/>
+               <speaker>Fed.</speaker>
+               <p>O my <hi>Ludovic,</hi> would to God I my ſelf were truly obedient, that I might lead you to obedience as it were by the hand. Now it can<g ref="char:EOLhyphen"/>not be that I ſhould lead you fur<g ref="char:EOLhyphen"/>ther then I have gone my ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yet I believe (and methinks I ſee it) that you have made further progreſs than I; wherefore, pray ſhew me the way, at leaſt ſo far as you have proceeded.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I will gladly do it, <hi>Ludovic,</hi> as I am able, God being my Guide. But I fear leaſt the difficulty and roughneſs of the way may deter you.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Be not afraid. I hope I am ready for all things, though difficult, ſo that I may come whither I de<g ref="char:EOLhyphen"/>ſire.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I pray God to confirm in you this Will, and bring you to per<g ref="char:EOLhyphen"/>fection. To begin therefore: Do you know what the Author of the
+<pb n="5" facs="tcp:97751:6"/> Epiſtle to the <hi>Hebrews</hi> hath Writ<g ref="char:EOLhyphen"/>ten: <hi>That without Faith it is impoſſi<g ref="char:EOLhyphen"/>ble to pleaſe God.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I know it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore it is firſt of all ne<g ref="char:EOLhyphen"/>ceſſary, that you believe in God, if you will be ſaved.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Go on therefore,</hi> Federic, <hi>to other things; for as to Faith, I have ever from my Child-hood believed in God, and truly I think there be very few, if any at all, which do not believe in God.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Indeed, that is eaſie to be ſaid, and ſo they are commonly perſwaded: but I fear leaſt it be ſaid rather raſhly and of cuſtom, than ſincerely. For I ſometime alſo have believed the ſame, both of my ſelf and others: but when I came to Examine, I ſaw how far I was abſent from it.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Do you think then, that I have not Faith?</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="6" facs="tcp:97751:7"/>
+               <speaker>Fed.</speaker>
+               <p>
+                  <hi>Ludovic,</hi> I do not think that you have no Faith, but I think you have ſo little, that it cannot be truly called Faith, or ſuch as can ſave you. And I pray be not of<g ref="char:EOLhyphen"/>fended. For having ſaid you are ready for all things though diffi<g ref="char:EOLhyphen"/>cult, it is fit you ſhould ſuffer this firſt, that I may ſhew, you have not that, wherewith you ſuppoſe your ſelf to abound. And indeed the firſt ſtep to the knowledg of the Truth, is to unlearn Error: other<g ref="char:EOLhyphen"/>wiſe, there will be no place for good Seed, where all is full of Thorns. Well then that we may examine your Faith, When you were a Child, <hi>Ludovic,</hi> did you be<g ref="char:EOLhyphen"/>lieve in your Father?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>What do you mean by believ<g ref="char:EOLhyphen"/>ing in my Father?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>To have him truly for your Father, and depend wholly upon him.</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:97751:7"/>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I did believe in him cer<g ref="char:EOLhyphen"/>tainly.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore if you had need of any thing, as Shoes or Coat, or Bread, you did run to him alone, and doubted not at all of his good Will toward you.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>No more than I did of my own.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Then if any ill happened to you, you look't only to him.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I did ſo.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And if he promiſed you any thing, you doubted not of his fide<g ref="char:EOLhyphen"/>lity and performance.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>No more, than if I had the thing promiſed in my own poſſeſſion.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You were then not follicit<g ref="char:EOLhyphen"/>ous about his Office but your own only.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>You ſay true.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Moreover, if he either com<g ref="char:EOLhyphen"/>manded you any thing, or did any thing himſelf, whereof you being
+<pb n="8" facs="tcp:97751:8"/> a Child knew not the reaſon, or which ſeemed to you abſurd, ne<g ref="char:EOLhyphen"/>vertheleſs you did it, and not doubt<g ref="char:EOLhyphen"/>ingly enquired into his doing.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>It is ſo indeed. For when at a time were brought freſh Grapes, and he bad me tread them with my Feet, it ſeemed to me abſurd, to tread upon ſuch fair and good Grapes, which I would rather have been preferred to eat. But becauſe it was my Father, I thought he commanded not without a cauſe, therefore I obeyed. Alſo when my Father ſometime pruned his Vines, and Grafted Trees, it ſeem'd abſurd and unreaſonable to me, that the Branches were cut off, which nature had made, and which ſeemed fit to bring forth Fruit. But allways this thought was in my mind: unleſs this were good, my Father would not do it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Now let us come to God. You ſay you believe in God your
+<pb n="9" facs="tcp:97751:8"/> Father, and ſo you call upon him: <hi>Our Father which art in Heaven.</hi> It is right therefore, that you ſhould certainly depend no leſs on him, than you depended on your Fa<g ref="char:EOLhyphen"/>ther. Therefore if you want any thing do you fly to God alone, nor doubt at all but he will bountifully ſupply you with all things? Why do you ſtick at it? Why do you not anſwer, <hi>Ludovic?</hi> Confeſs the truth, nor let a vain carnal fear move you, which is wont to keep men from confeſſing their faults, becauſe they are afraid, leaſt he to whom they are to be confeſſed be alienated in mind from them, as vitious, or have them in leſs e<g ref="char:EOLhyphen"/>ſteem. You are in no ſuch danger with me. For I cannot be alienat<g ref="char:EOLhyphen"/>ed from any one for thoſe vices, which I ſee heretofore in my ſelf, and deplore them, and I doubt not, they are in others; unleſs they have
+<pb n="10" facs="tcp:97751:9"/> already gone through the way, which certainly, you and I have not gone through. Neither will I eſteem you the leſs, if you confeſs with your mouth before a Friend, what I know you confeſs in your mind already.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>O my</hi> Federic, <hi>I am aſham'd to confeſs, but ſhame is to be ſwallow<g ref="char:EOLhyphen"/>ed. I truly am oft, and very vehe<g ref="char:EOLhyphen"/>mently ſollicitous and anxious about neceſſary things, leaſt Bread, or Wine, or other things faile me; eſpecially when I ſee I have little Money re<g ref="char:EOLhyphen"/>maining, and have no ready way to get more Money.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>But if you have your Purſe full, or if you have any ready way of ſupply, then you have no ſolli<g ref="char:EOLhyphen"/>citude at all, or ſurely leſs.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>It is ſo.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You truſt therefore to your Money, or to your Induſtry, more than to God.</p>
+            </sp>
+            <sp>
+               <pb n="11" facs="tcp:97751:9"/>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>It is ſo certainly.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>But when you were a child, you truſted your Father only.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yes.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You ſee now, you do not believe in God, but in your Money, and in your induſtry. I think theſe words ſeem to you violent, that you can't deny, and yet doubt, or are aſhamed ſo quickly to confeſs. But compel your ſelf, <hi>Ludovic;</hi> ma<g ref="char:EOLhyphen"/>ny things are to be learned, which lye hid in our hearts, and we muſt come to the very root; unleſs that be plucked out, we cannot be ſafe. Let us proceed. In adverſity, what ſay you <hi>Ludovic,</hi> is not your mind ſomewhat troubled?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yes very much, I am not pa<g ref="char:EOLhyphen"/>tient in adverſity, and turn my mind every way to all human remedies.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What do you concerning things promiſed? God hath pro<g ref="char:EOLhyphen"/>miſed you, that he will ſupply you
+<pb n="12" facs="tcp:97751:10"/> with all neceſſaries for life, If you firſt ſeek the Kingdom of God and his righteouſneſs. Do you certain<g ref="char:EOLhyphen"/>ly believe his promiſe, ſo that you are no more doubtful of his truth, than you were of your Fathers in your Childhood?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Truly I am very ſhort of it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>But if <hi>Henricus Rotenfeldi<g ref="char:EOLhyphen"/>us</hi> your neighbor, a Rich man, and (as he is accounted) an honeſt man, had promiſed you three hundred Growns, you would for ſome years be freed from that ſollicitude.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yes.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Now God hath promiſed you not three hundred Crowns, but all things neceſſary, and you diſtruſt, and are ſollicitous.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>You ſay true.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore you believe in God leſs than in, I will not ſay your Father, but <hi>Henrieus Roten<g ref="char:EOLhyphen"/>feldius.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="13" facs="tcp:97751:10"/>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I am forced to confeſs the Truth.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And yet men may either through their falſehood or inabili<g ref="char:EOLhyphen"/>ty, not ſtand to their promiſes; neither of which falls upon God. Wherefore by your diſtruſt in God, you falſly accuſe him either of want of Truth, or want of Power.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>'Tis true.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>But if you do not truſt God for the food of your body who hath never yet failed you, can you truſt him for a bleſſed and Eternal life, whereof as yet you have never taſt<g ref="char:EOLhyphen"/>ed? For weigh the matter thus. If the King ſhould now ſend a Meſ<g ref="char:EOLhyphen"/>ſenger to you, by whom he would adopt you to be his Son and you believed it, in what manner would you behave your ſelf?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Verily, I ſhould value all that I have as nothing, and as here a ſtranger, have my mind already at
+<pb n="14" facs="tcp:97751:11"/> Court. For ſuch a thing happened to me in my Youth. Being in a very mean condition, I was called into the Family of a certain Noble and Wealthy man. Whereupon I found my mind ſo changed, that I had no ſuch thoughts as I had formerly, nor was troubled with any ſuch care and ſollicitude, as before; yea, when mo<g ref="char:EOLhyphen"/>ney was to be ſent me from my Pa<g ref="char:EOLhyphen"/>rents, I ſent them word they need not ſend it: for I ſhould henceforth want no money. In ſhort, I formed in my mind the bravery of the Houſe, and place, and perſons, where I ſhould dwell, which yet I had never ſeen.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I believe you <hi>Ludovic:</hi> for I have had the like experience in my ſelf. But what if you had not believed that meſſenger?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I had continued in the ſame ſtate I was in.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And what if one had ſeen
+<pb n="15" facs="tcp:97751:11"/> you remaining in that ſtate, would he not eaſily have affirmed, you did not believe the Meſſenger.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Eaſily.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Now let us come to the purpoſe. God hath promis'd to thoſe that love Him, ſuch good things as neither Eye hath ſeen, nor Ear heard, nor the Heart of man comprehended. Let us, <hi>Lu<g ref="char:EOLhyphen"/>dovic,</hi> confeſs the truth here alſo. Should we not, if we did verily believe this promiſe, be ſo carri<g ref="char:EOLhyphen"/>ed in our minds to Heav'n, that no earthly care ſhould trouble us, no ſollicitude or vexation touch us.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yes certainly.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Now, when we rejoyce in gain, grieve in loſs, are ſorely af<g ref="char:EOLhyphen"/>fected and dejected with diſgrace, exult and are glad of honor and pleaſure, all which are earthly things; is not this a plain Argu<g ref="char:EOLhyphen"/>ment,
+<pb n="16" facs="tcp:97751:12"/> that we do not believe Gods promiſes, but cleave to an earthly inheritance.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>It is.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if God ſhould pro<g ref="char:EOLhyphen"/>miſe us ſomething which might ſeem impoſſible, as to <hi>Abraham,</hi> to whom in his Old Age, by an Old and Barren Woman, he had promiſed a Son?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Surely I fear, we ſhould not believe him.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And yet <hi>Abraham</hi> was the Father of the Faithful: So that if we would be Saved, we have need of ſuch a Faith as <hi>Arahams</hi> was. Thus much for belief in the Father. If we come to the Son, I fear we believe much leſs. For I do not mean the Faith, which many think of, to believe that <hi>Jeſus</hi> hath done and ſuffered the things that are Written of him. For this Faith the Devils
+<pb n="17" facs="tcp:97751:12"/> alſo have. I ſpeak of a true and lively Faith, the mighty Faith, to which all things are poſſible, which can even remove mountains of which the Lord ſaith, <hi>Mark</hi> 16. <hi>Theſe ſigns ſhall follow them that believe, In my name ſhall they caſt out Devils, they ſhall ſpeak with new Tongues; they ſhall take up Ser<g ref="char:EOLhyphen"/>pents, and if they drink any deadly thing, it ſhall not hurt them. They ſhall lay Hands on the Sick, and they ſhall recover.</hi> Do theſe ſigns follow your Faith, <hi>Ludovic?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Nothing leſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore you have not Faith.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>But they ſay that there is no need of Miracles now.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Neither do I require them now, nor were they then the works of all men. For St. <hi>Paul</hi> writes, 1 <hi>Cor.</hi> 12. <hi>Are all work<g ref="char:EOLhyphen"/>ers of Miracles? Have all the Gifts
+<pb n="18" facs="tcp:97751:13"/> of Healing? Do all ſpeak with tongues?</hi> But I require that which St. <hi>Peter</hi> exacts, <hi>Add,</hi> ſaith He, <hi>to your Faith Vertue.</hi> Surely it is neceſ<g ref="char:EOLhyphen"/>ſary that the Faith of every man, and of every time, have Vertue, if it be joyned with Love. Which that you may the more eaſily underſtand, conſider what is the Vertue of Worldly Faith. A man believes Riches to be good, and that he can attain to them by Merchandize: Therefore he leaves at home oft-times a beautiful and beloved Wife with tender Chil<g ref="char:EOLhyphen"/>dren, and ventures upon great perils of wayes, Robbers, and the Sea, and ſuffers intollerable la<g ref="char:EOLhyphen"/>bors, that he may fetch thoſe be<g ref="char:EOLhyphen"/>lieved and beloved Riches, even from the fartheſt parts of the World. Such vigor and ſtrength doth his Faith beget in him. For unleſs he did, believe he would not
+<pb n="19" facs="tcp:97751:13"/> venture. Thus it may be ſaid: This man was enriched by Faith. What ſhall we ſay of Letters? A Child believes Letters and humane arts to be an Excellent thing, and worthy of his greateſt pains. There<g ref="char:EOLhyphen"/>fore he falls to his Study with all his might, night and day, endures poverty, cold, and what not? That he may attain to that which he believes to be good. What do Soldiers? To obtain victory and ſpoil, what kind of hardſhip do they not undergo? How many nights do they keep Watch? How often are they diſtreſſed with Fa<g ref="char:EOLhyphen"/>mine, ſo that they eat Mice, Hor<g ref="char:EOLhyphen"/>ſes, yea their own Shoes, and af<g ref="char:EOLhyphen"/>terwards glory in it? Whence have they ſo great courage? Whence, but from Faith? For they believed that to be good which they deſire. What do Huntſ<g ref="char:EOLhyphen"/>men? Do they not often paſs
+<pb n="20" facs="tcp:97751:14"/> whole Winter Nights under the open Air, when the Cold is ſo great that it breaks even the Stones? What do Lovers? What evil do they not bear moſt chear<g ref="char:EOLhyphen"/>fully to pleaſe their Miſtreſs? and account themſelves happy in ſuf<g ref="char:EOLhyphen"/>fering for her. Moreover the ſame vertue and force of Faith is ſeen, not only in ſingle Perſons, but in Nations alſo. For, whence do either the <hi>Italians</hi> ſo eaſily ab<g ref="char:EOLhyphen"/>ſtain from Drunkenneſs; or the <hi>Helvetians</hi> are ſo conſtant in Bat<g ref="char:EOLhyphen"/>tles, that they had rather dye than flye? Truly from hence, that they are verily perſwaded they ought to do ſo. And had they ſo perſwaded themſelves in all ver<g ref="char:EOLhyphen"/>tues, they would be as excellent in all. Many other things of this kind might be Collected. Such is the force of Faith working in the Hearts of men. Let us now
+<pb n="21" facs="tcp:97751:14"/> examine our Faith, and ſee whe<g ref="char:EOLhyphen"/>ther the Spirit of Chriſt dwell in us. Chriſt pronounces them bleſſ<g ref="char:EOLhyphen"/>ed, who hunger and thirſt after Righteouſnes; and hath com<g ref="char:EOLhyphen"/>manded us to lay up our Treaſure in Heaven. Go too now <hi>Ludovic,</hi> do you feel in your ſelf ſo great a thirſt of Righteouſneſs, as you have felt of Water ſometimes? Or ſo great a deſire of the King<g ref="char:EOLhyphen"/>dom of God, as the Covetous man perceives he hath of money? Do you watch day and night, that you may pleaſe God? Have you ever beſtowed a whole year or two, upon the Study of Piety?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Nothing leſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What ſay you for the hearing of injuries? What ſtrength have you? If one ſtrike you on the right Cheek can you turn the left? Can you Bleſs him that
+<pb n="22" facs="tcp:97751:15"/> Curſeth you? Wiſh well and Pray for him that revileth you? En<g ref="char:EOLhyphen"/>deavor his ſafety, who plots your deſtruction.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Indeed I am very far from it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore you do not be<g ref="char:EOLhyphen"/>lieve in Chriſt. For if you did believe, you would obey his Com<g ref="char:EOLhyphen"/>mands.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>But I did not refer Faith to this obedience.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What manner of Faith then did you conceive?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>A belief of the free mercy of God, exhibited to us in Chriſt.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>To what purpoſe then, did you think the Precepts of Chriſt are.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>To admoniſh us of our in<g ref="char:EOLhyphen"/>firmity, who cannot perform the things we ought to do; that ſo we might wholly depend on Christ, who hath performed them for us,
+<pb n="23" facs="tcp:97751:15"/> and will communicate his performan<g ref="char:EOLhyphen"/>ces to us.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>The Apoſtle alſo, <hi>Ludovic,</hi> truſted in the free mercy of God, and nevertheleſs obeyed the Pre<g ref="char:EOLhyphen"/>cepts of Chriſt. Neither do I place our ſafety in our obedience and works, but in the free mercy of God. But this I ſay; if a man doth truly believe in the free mercy of God, he doth obey the commands of Chriſt. And if a man doth only believe the free mercy of God, and doth not alſo believe his Precepts, threats, and promiſes, and all the words of God, his Faith is lame and inva<g ref="char:EOLhyphen"/>lid: For the compleat and mighty Faith, is that by which they ſub<g ref="char:EOLhyphen"/>dued Kingdoms, wrought Righte<g ref="char:EOLhyphen"/>ouſneſs, attained the promiſes, and performed things worthy of every conſidering mans admirati<g ref="char:EOLhyphen"/>on. <hi>Heb.</hi> 11. For he doth not
+<pb n="24" facs="tcp:97751:16"/> verily believe in God, who only promiſeth unto himſelf ſafety from his free mercy (ſuch was the Faith of the <hi>Jews,</hi> and ſtill is) but who doth alſo ſo fully believe and aſ<g ref="char:EOLhyphen"/>ſent, not unto ſome, but unto all the deeds and ſayings of God; as you ſaid, you believed your Father when you were a child; or as we ſaid of Covetous, Luxuri<g ref="char:EOLhyphen"/>ous, Ambitious men, which have a Faith not dead and lazy, but Efficacious and active, never reſt<g ref="char:EOLhyphen"/>ing until it hath attained unto the things deſired. Such is the true Faith in Chriſt, which worketh by charity. Such a Faith if a man have not, he falſly boaſteth him<g ref="char:EOLhyphen"/>ſelf of Faith. Therefore, whereas men commonly challenge to them<g ref="char:EOLhyphen"/>ſelves Faith, when they do ne<g ref="char:EOLhyphen"/>vertheleſs live in all kinds of wickedneſs, they Lye, nor have they a lively, but a dead Faith;
+<pb n="25" facs="tcp:97751:16"/> which does no more deſerve the name of Faith, then a dead man the name of a man. Chriſt him<g ref="char:EOLhyphen"/>ſelf ſufficiently ſhews, this is not Faith, when he ſaith, he ſhall not find Faith on earth at his com<g ref="char:EOLhyphen"/>ing: And when to thoſe that ſay, Lord, Lord, have we not caſt out Devils in thy Name? Done Miracles? Haſt thou not taught in our Streets? He ſhall anſwer I know you not. <hi>Depart from me ye workers of Iniquity.</hi> Really, he will take thoſe alone for Faithful, who are well doers and obedient. For they alone have true Faith, of whom it is Written: <hi>Theſe are they which keep the commands of God, and the Faith of Jeſus, Rev.</hi> 14. But <hi>Ludovic,</hi> if you have not that Faith which may make you Righteous, that is, chaſt, hum<g ref="char:EOLhyphen"/>ble, benign, liberal, and endued with the reſt of ſuch Virtues, ſee
+<pb n="26" facs="tcp:97751:17"/> how far abſent you are from ſhewing thoſe Miracles which Chriſt hath ſaid ſhould be the ſigns of Faith. I do not here mean Corporal Miracles given for the Planting of the Churches Faith: But this I require, that the Believer in Chriſt beget in others the ſame Vertues which Chriſt hath begotten in him; that is, that he make of Drunkards, Sober men; of Riotous, chaſte; of Angry, Milde; and of Unjuſt men, Righteous. For this is to caſt out the Devils of Luxury, Avarice, Anger and the reſt. Likewiſe that he ſpeak with new Tongues, that is, fiery and burn<g ref="char:EOLhyphen"/>ing, which no man may be able to reſiſt; ſuch as is the Tongue of them, who ſpeak not what they have read, but what they have ſeen with their Eyes, heard with their Ears, touched with
+<pb n="27" facs="tcp:97751:17"/> their hands; that is, what they find throughly Imprinted on their Hearts, and believe as ſurely, as you do ſurely believe, either that it is now day or that it will anon be night. By theſe Tongues they are able truly and effectually to comfort the afflicted, to encou<g ref="char:EOLhyphen"/>rage the tender, to give hope to the diſpairing, to ſtrengthen the weak, to give counſel to the doubtful, and to perform other things of this ſort, which I much prefer before the doing of exter<g ref="char:EOLhyphen"/>nal Miracles, and pertaining only to the Body. Theſe things if one hath not himſelf, nor can beſtow on others, truly I ſee not by what right he may challenge unto him<g ref="char:EOLhyphen"/>ſelf Faith, except that perhaps, which the Devils alſo have, who believe there is a God and trem<g ref="char:EOLhyphen"/>ble <hi>Jam.</hi> 2. But I ſpeak of true and juſtifying Faith, which makes
+<pb n="28" facs="tcp:97751:18"/> a man partaker of the Divine Nature, and renders all things poſſible unto him. I have ſhewed above how great force Faith hath in human affairs. The ſame we may perceive alſo in Religion, whether falſe or true. The <hi>Turks</hi> believe they ought not to drink Wine. The <hi>Jews</hi> believe they muſt abſtain from things forbid<g ref="char:EOLhyphen"/>den by the Law, they do abſtain. There are found ſome men, who pine themſelves away with long Faſting; ſome that Scourge their bodies, I will not ſay ſeverely, but indeed moſt cruelly, fetching blood: Some that for Religion ſake undergo very long pilgrima<g ref="char:EOLhyphen"/>ges, wherein they endure begga<g ref="char:EOLhyphen"/>ry, and many other evils and dan<g ref="char:EOLhyphen"/>gers. What ſhall I ſpeak of them that have caſtrated themſelves? What of the Circumcellions who (as 'tis related of them) that
+<pb n="29" facs="tcp:97751:18"/> they might be Martyrs, and make other men alſo Martyrs, killed themſelves with many kinds of death, and perſwaded others to do the ſame. And all theſe things they did by Faith. For had they not believed they muſt be done, they had never done them. In a word, whatſoever almoſt men be<g ref="char:EOLhyphen"/>lieve ought to be done, they are able to do. Now, if their falſe Faith, and not only not founded in the command of God, but plain<g ref="char:EOLhyphen"/>ly contrary to Gods command, hath ſo great force; I pray what will not the Faith be able to do, which is both commanded by God, and procured and confirmed by him. Shall the Spirit of God have leſs ſtrength in man than the Spirit of Satan? Shall Dark<g ref="char:EOLhyphen"/>neſs have more power than Light? You ſee what was the power of St. <hi>Paul</hi>'s Faith, 1 <hi>Cor.</hi> 4. <q rend="inline">Even
+<pb n="30" facs="tcp:97751:19"/> unto this preſedt time, we both hunger and thirſt, and are nak<g ref="char:EOLhyphen"/>ed, and are Buffeted, and have no certain dwelling place, and labor working with our own hands, 2 <hi>Cor.</hi> 11. Are they Mi<g ref="char:EOLhyphen"/>niſters of Chriſt? I am more: in labors more abundant, in ſtripes above meaſure, in Priſons more frequent, in Death often. Of the <hi>Jews</hi> received I Forty Stripes ſave one. Thrice was I beaten with Rods, once was I Stoned, thrice I ſuffered Ship-wrack, a night and a day have I been in the Deep. In Journeying often, in perils of Waters, in perils of Robbers, in perils by my own Country-men, in perils by the Heathen, in perils in the City, in perils in the Wilderneſs, in perils in the Sea, in perils among falſe Brethren: In wearineſs and painfulneſs, in watchings often,
+<pb n="31" facs="tcp:97751:19"/> in hunger and thirſt, in faſtings often, in cold and nakedneſs. Beſides thoſe things which are without, that which cometh up<g ref="char:EOLhyphen"/>on me daily, the care of all the Churches. Who is weak and I am not weak? Who is offended and I burn not?</q> This, <hi>Ludovic,</hi> this is that omnipotency of Faith, wherewith being Armed he was able to do all things by Chriſt who gave him ſtrength. And if we have the ſame ſtrength to obey, then we have reaſon to aſcribe unto our ſelves the ſame Faith: If not, let us not perſwade our ſelves we have that which we want, leaſt we be like him who Dreams he hath found a Treaſure, and being awaked hath not a farthing.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>O my</hi> Federic, <hi>I indeed have been in a Dream that I abound<g ref="char:EOLhyphen"/>ed in Faith, and now being awaked,
+<pb n="32" facs="tcp:97751:20"/> with your words, I ſee plainly, that I and all the World are utterly void of it. For I neither feel in my ſelf that power of Faith, nor find it in the World.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>That you are void of Faith, <hi>Ludovic,</hi> is a thing indeed worthy of ſorrow; but being ſo, you ſee you are ſuch, in this caſe you are not only not to be ſorry, but to rejoyce. As a Diſeaſe is ill, but the knowledge of the Diſeaſe is good: for it cannot be cured un<g ref="char:EOLhyphen"/>leſs it be known.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>By what means then, or by what Medicine, may this Diſeaſe of my unbelief be cured?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>The Impediments of Faith are to be removed.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>What are they?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>That you have heard al<g ref="char:EOLhyphen"/>ready of me in our former Confe<g ref="char:EOLhyphen"/>rences; but becauſe you have not well underſtood it, being per<g ref="char:EOLhyphen"/>haps
+<pb n="33" facs="tcp:97751:20"/> new to you, (we are wont not to retain words nor things which we underſtand not.) I will declare it more plainly. Attend; what think you to be the reaſon that no man is admitted at a Tryal to be a Witneſs in his own Cauſe.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Becauſe all men love them<g ref="char:EOLhyphen"/>ſelves: and therefore will always ei<g ref="char:EOLhyphen"/>ther ſpeak for themſelves, or at leaſt not againſt themſelves.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You ſay right. But if they will not ſpeak againſt themſelves, neither are they willing to hear what is ſpoken againſt themſelves. For truth which is contrary to them, doth not leſs diſpleaſe them in the mouth of another, than in their own mouth.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>So it is.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And what they do not willingly hear, they do not will<g ref="char:EOLhyphen"/>ingly believe. For no man is willing to believe the things which
+<pb n="34" facs="tcp:97751:21"/> he is unwilling to hear. No man eaſily believes what he would not: And almoſt all do eaſily believe what they would. I will give you Examples. If one ſhould ſay, that the Goods of Chriſtians ought to be common, whether would more readily believe this, the Rich or the Poor?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>The poor.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Why?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Becauſe the poor ſhould looſe nothing by it, but rather gain.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What would the Rich?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>They would hardly, or not at all believe it, becauſe thereby they ſhould become poorer, which they would not.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if one denyed Souls to be delivered out of Purgatory by ſaying Maſs? Whether would more hardly believe it, the Prieſts, or the Lay?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>The Prieſts: becauſe by that
+<pb n="35" facs="tcp:97751:21"/> opinion their profit would be dimi<g ref="char:EOLhyphen"/>niſhed.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if one ſhould ſay Uſury is unlawful to Chriſtians? could that be perſwaded to them that live and grow Rich by Uſury?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Scarcely.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And what if a man Teach this Doctrine, that men are not to be put to death for Religion, whether would be more apt to believe it; They that have Au<g ref="char:EOLhyphen"/>thority with the Magiſtrate, and are themſelves Divines, and per<g ref="char:EOLhyphen"/>ſecute or deſire to perſecute others, or they that are contrary to them.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>They that are contrary to them. For I have known ſome Di<g ref="char:EOLhyphen"/>vines, who when they wanted that Authority and were infeſted for Re<g ref="char:EOLhyphen"/>ligion, have taught that for Religi<g ref="char:EOLhyphen"/>on no man ought to be infeſted: the ſame having gotten Wealth and Au<g ref="char:EOLhyphen"/>thority,
+<pb n="36" facs="tcp:97751:22"/> have both taught and done quite otherwiſe.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You ſee then, that ſelf-love is an impediment of Faith. That is, men do not eaſily believe what is contrary to that they love.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I ſee it clearly.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Let us now conſider, if the ſame be the Impediment of our Faith in Chriſt. In the In<g ref="char:EOLhyphen"/>ſtitution of Chriſt there be Hiſto<g ref="char:EOLhyphen"/>ries, Promiſes, Precepts. Almoſt all believe the Hiſtories and Pro<g ref="char:EOLhyphen"/>miſes, wherein no duty of man is required; nor do any Controver<g ref="char:EOLhyphen"/>ſies among Chriſtians ariſe, whe<g ref="char:EOLhyphen"/>ther Chriſt hath done the things that are related of him in Holy Writ, or hath promiſed the things that are therein contained. But the Precepts, why do ſo few be<g ref="char:EOLhyphen"/>lieve them?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Do fewer believe the Pre<g ref="char:EOLhyphen"/>cepts than the Hiſtory or Promiſes?</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="37" facs="tcp:97751:22"/>
+               <speaker>Fed.</speaker>
+               <p>Do you doubt? Firſt, that which the Maſters are wont to teach in General touching Gods commands; that they are not de<g ref="char:EOLhyphen"/>livered that we ſhould keep them, but that we ſhould acknowledge our infirmity; what is it elſe, then to derogate Faith from his com<g ref="char:EOLhyphen"/>mands and not to believe them? For when the Lord hath ſaid, <hi>All things are poſſible to him that believeth:</hi> And St. <hi>Paul, I can do all things through Chriſt that ſtrength<g ref="char:EOLhyphen"/>eneth me;</hi> Certainly, whoſoever doth not only not obey the Pre<g ref="char:EOLhyphen"/>cepts, but believes it impoſſible for them to be obeyed, he does not truly believe the Precepts. Whence it follows, that how few ſoever they are that obey the Precepts (and they are very few) ſo few they are that believe the Precepts.</p>
+            </sp>
+            <sp>
+               <pb n="38" facs="tcp:97751:23"/>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>But that which you ſay,</hi> All things are poſſible to him that believeth, <hi>ſeems to have been ſpo<g ref="char:EOLhyphen"/>ken, not of obedience, but of mi<g ref="char:EOLhyphen"/>racles.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>'Twas ſpoken in General of all the works of Faith, which we have diſcourſed of before, al<g ref="char:EOLhyphen"/>ledging that place out of the Epi<g ref="char:EOLhyphen"/>ſtle to the <hi>Hebrews,</hi> The Saints by Faith have ſubdued Kingdoms, wrought righteouſneſs: For to work righteouſneſs certainly is the act of Faith. Moreover, if it were Gods pleaſure, that by Faith miracles might be wrought, which yet are not neceſſary to mans Salvation; much more would he have obedience to his commands poſſible by the ſame Faith; ſince without obedience man cannot be ſaved; and beſides it being not more difficult to obey, than to do miracles; and to obey
+<pb n="39" facs="tcp:97751:23"/> being the duty of all Believers, to do miracles not of all, as afore we have demonſtrated.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Theſe things are true,</hi> Fe<g ref="char:EOLhyphen"/>deric, <hi>but there remains one thing which I deſire you to Explain for me. You have ſaid before, that almoſt all believe the Hiſtory, not the Precepts. But if men did be<g ref="char:EOLhyphen"/>lieve the whole Hiſtory of Chriſt, and eſpecially the Reſurrection, the reſt alſo, as I think would be be<g ref="char:EOLhyphen"/>lieved. No doubt if men did be<g ref="char:EOLhyphen"/>lieve that</hi> Jeſus Chriſt <hi>is Riſen, they would believe withal, that he is truly the Son of God, and ſo believe all his ſayings likewiſe.</hi> For this cauſe (St. <hi>John</hi> ſaith) Theſe things are Written, that ye might believe that <hi>Jeſus</hi> is the Son of God, and that Believing ye might have life through his Name.</p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>When I deny that they believe his Precepts, I would not
+<pb n="40" facs="tcp:97751:24"/> have it ſo taken, as if they be<g ref="char:EOLhyphen"/>lieve not that he hath given Pre<g ref="char:EOLhyphen"/>cepts, and given them well, as is worthy of the Son of God: but whereas they believe the things he hath commanded, either not poſſible to be done, or not neceſſary, or elſe interpret them amiſs, and according to their own will, not according to the mind of Chriſt; I ſay they do not believe his Precepts, that is, not believe them well. Which that you may the more eaſily under<g ref="char:EOLhyphen"/>ſtand, I will bring an example. When God having brought the <hi>Iſraelites</hi> out of <hi>Egypt,</hi> command<g ref="char:EOLhyphen"/>ed them to invade the Land of <hi>Canaan,</hi> did they believe God com<g ref="char:EOLhyphen"/>manded it?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Yes ſurely: otherwiſe they would never have ſent their Spies into</hi> Canaan.</p>
+            </sp>
+            <sp>
+               <pb n="41" facs="tcp:97751:24"/>
+               <speaker>Fed.</speaker>
+               <p>Why then did they not obey?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Becauſe they did not hope the</hi> Canaanites <hi>could be overcome, nor think that God had brought them out of</hi> Egypt <hi>to poſſeſs</hi> Canaan, <hi>but miſerably to periſh in the Wil<g ref="char:EOLhyphen"/>derneſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore they did not be<g ref="char:EOLhyphen"/>lieve Gods commands according to Gods mind, when his mind was, that they ſhould invade and ſubdue the <hi>Canaanites.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>You ſay the truth.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Therefore they did not be<g ref="char:EOLhyphen"/>lieve well.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Not well.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Are they then to be called Believers or Unbelievers?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>nbelievers, in that reſpect.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Directly Unbelievers, <hi>Lu<g ref="char:EOLhyphen"/>dovic,</hi> for God calls them Unbe<g ref="char:EOLhyphen"/>lievers in theſe words, <hi>Numbers</hi> 14. <hi>How long will this people pro<g ref="char:EOLhyphen"/>voke
+<pb n="42" facs="tcp:97751:25"/> me? And how long will it be e're they believe me, for all the ſigns which I have ſhewed amongſt them?</hi> Now if theſe be rightly named Unbelievers, they may alſo by the ſame reaſon be called ſo, and ſaid not to believe the Precepts of Chriſt, who interpret them no better than theſe <hi>Iſraelites</hi> did the commands of God. For Chriſt hath ſhewed us as many miracles, as <hi>Moſes</hi> them; as ſeriouſly com<g ref="char:EOLhyphen"/>mands us to ſubdue our ſins, as they were commanded to ſubdue the <hi>Canaanites:</hi> nor are we leſs contumelious and diffident in re<g ref="char:EOLhyphen"/>ſpect of Chriſt, if when he com<g ref="char:EOLhyphen"/>mands us and promiſeth ſtrength, we deny it poſſible to ſubdue our ſins, then they were in reſpect of God, while they deny it poſſible to ſubdue the <hi>Canaanites:</hi> nor do we leſs offend againſt the mind of Chriſt, while we ſay, what Chriſt
+<pb n="43" facs="tcp:97751:25"/> commanded he did not command, with a meaning that it ſhould be done, or be poſſible; then they while they drew the meaning of God another way from the ſenſe of his plain words. Wherefore in that I deny them to believe the precepts of Chriſt, I do them no wrong. As to the place of St. <hi>John</hi> cited by you, it is to be underſtood, as if one had ſaid then to the <hi>Iſraelites:</hi> God hath done thoſe miracles for you in <hi>E<g ref="char:EOLhyphen"/>gypt,</hi> that ye may believe him, and believing come into the reſt of <hi>Canaan.</hi> But they came not all thither though that was the mind of God; for ſome of them hardened their hearts. Which I would it were not ſo in Chriſt. We ſee it is ſo, and that it may not be ſo, the Author of the E<g ref="char:EOLhyphen"/>piſtle to the <hi>Heb.</hi> admoniſheth, citing that of the <hi>Pſalm:</hi> To day if
+<pb n="44" facs="tcp:97751:26"/> you will hear his voice, harden not your hearts, as your Fathers, <hi>viz.</hi> hardned their hearts. There<g ref="char:EOLhyphen"/>fore to return to our purpoſe, whereas thoſe things are by them ſo ſtudiouſly ſelected to believe, which God is to do, and thoſe refuſed which belong to the Du<g ref="char:EOLhyphen"/>ty of man, I pray, what a thing is this? The beneficence and grace of God which bringeth ſalvation to all men hath appeared: How gladly is this received? But that which follows, teaching us to de<g ref="char:EOLhyphen"/>ny ungodlineſs and worldly luſts, and to live ſoberly, righteouſly and Godly in this preſent world, how few do embrace this? Moſt men believe this is ſo performed by Chriſt, that it is unneceſſary for us to perform it. Again, Bleſ<g ref="char:EOLhyphen"/>ſed is the man to whom the Lord doth not impute ſin. This all men eaſily believe: But that which
+<pb n="45" facs="tcp:97751:26"/> is ſubjoined, and in whoſe Spirit there is no guile, this they be<g ref="char:EOLhyphen"/>lieve is not poſſible to be attain<g ref="char:EOLhyphen"/>ed. Again, there is no condem<g ref="char:EOLhyphen"/>nation to them that are in Chriſt Jeſus: This is pronounced with full mouth; for 'tis a moſt ſweet ſentence: <hi>But that, who walk not after the Fleſh but after the Spirit,</hi> is bitter and believed by very few. Briefly, men eaſily believe, we ſhall mow with joy; but if you ſay we moſt ſow in tears, this part they caſt upon Chriſt. Hence it is, that falſe Prophets, becauſe they preach pleaſing things, and either feign pleaſing promiſes of God, or apply them to ſuch, to whom they do not belong, eaſily find credit: When the true Pro<g ref="char:EOLhyphen"/>phets, becauſe they urge the threats of God, and teach the truth ſeverely, have place among the feweſt, as <hi>Eſay</hi> exclaims; Lord,
+<pb n="46" facs="tcp:97751:27"/> who hath believed our ſpeech? Theſe things being ſo, it is mani<g ref="char:EOLhyphen"/>feſt, <hi>Ludovic,</hi> that men are hin<g ref="char:EOLhyphen"/>dred from believing the truth by the love of themſelves. But, if ſelflove were quitted, they would believe nothing ſo eaſily, as Truth; being naturally enclined to truth, and owning it preſently as our ally, if there be no impe<g ref="char:EOLhyphen"/>diment. Wherefore 'tis neceſſary, <hi>Ludovic,</hi> if you are willing truly to believe truth, that is God, you muſt lay aſide ſelf love, or ra<g ref="char:EOLhyphen"/>ther conceive the hatred of your ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>O Federic, you perſwade me thus, but 'tis no ſmall matter to hate one ſelf, nor do I ſee the way to a<g ref="char:EOLhyphen"/>tain unto it, nor know whether I can do it, ſo much do I love my ſelf.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I know, <hi>Ludovic,</hi> it is a very difficult matter, and above
+<pb n="47" facs="tcp:97751:27"/> humane ſtrength, but here we ought to remember what the Lord ſaid of <hi>Sarah,</hi> when ſhe could not believe ſhe ſhould be great with Child, is any thing to hard for the Lord? What is impoſſible to man, is poſſible to God; and un<g ref="char:EOLhyphen"/>der his conduct nothing is to be diſpaired of.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I beſeech you therefore, ſhew me the way whereby I may attain unto it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I will do ſo, if God pleaſe: Lend me your ear. If I had a ſervant moſt pleaſant, kind and officious, and one who provided dainties for my pallate, but mix<g ref="char:EOLhyphen"/>ed with poyſon to take away my life, and you knew it, <hi>Ludovic,</hi> who love me, what would you do?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Verily, I would with all ſpeed and diligence advice you to take heed of taſting thoſe dainties,
+<pb n="48" facs="tcp:97751:28"/> or loving that ſervant; for he would ſecretly take away your life.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if I ſhould ſay, I am delighted with the obſequiouſneſs of my ſervant, and the daintineſs of the diſh?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I would admoniſh you, not to value ſo much the preſent plea<g ref="char:EOLhyphen"/>ſure, as to looſe your life for it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if your friend were in love with a flattering and paint<g ref="char:EOLhyphen"/>ed harlot, one infected with the <hi>French</hi> diſeaſe, and you knew it, what would you do?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I would tell him of the di<g ref="char:EOLhyphen"/>ſeaſe, and as much as I am able dehort him from her company.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if he ſaid, I am de<g ref="char:EOLhyphen"/>lighted with her?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I would anſwer, Fiſhes alſo are delighted with the bait: But 'tis a folly to buy ſo little pleaſure with ſo great pain, or rather with death.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="49" facs="tcp:97751:28"/>
+               <speaker>Fed.</speaker>
+               <p>What if he ſay, I cannot chuſe but deſire the pleaſure.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I would admoniſh him, that if he cannot as yet quench his luſt, he would at leaſt reſiſt it and not obey it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What if he obeyed it?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Then truly I ſhould think him more fooliſh then the bruits, and worthy of any Evil. For Fiſhes, Wolves, Foxes, Kites, though very hungry, yet if they either ſee or ſuſ<g ref="char:EOLhyphen"/>pect a hook, a ſnare, a trap, they abſtain from the prey.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>You ſay well, <hi>Ludovic;</hi> Thus then. Every mans fleſh is as it were a harlot, and that paint<g ref="char:EOLhyphen"/>ed, which allures and delights him with her enticements, and flatteries, drives him to ſin and detains him in ſin, and at laſt caſts him headlong into the death of his ſoul. Now man ignorant of the poyſon, embraceth pleaſures
+<pb n="50" facs="tcp:97751:29"/> and gives himſelf to them. Then there comes upon him his friend truth minding him, that the wa<g ref="char:EOLhyphen"/>ges of ſin is death; and demon<g ref="char:EOLhyphen"/>ſtrates the fleſh, which the man took for his friend, to be his ca<g ref="char:EOLhyphen"/>pital enemy. Wherefore if you deſire to be ſaved, you muſt be<g ref="char:EOLhyphen"/>lieve, that you have no enemy ſo pern cious as your ſelf, that is, your fleſh, which hitherto becauſe pleaſing, you have favoured and obeyed, you muſt henceforth, be<g ref="char:EOLhyphen"/>cauſe noxious and deadly, hate and reſiſt. Now if you cannot preſently drive away the entice<g ref="char:EOLhyphen"/>ments of it (as indeed you can<g ref="char:EOLhyphen"/>not for they cleave faſt) truth ſays to you as of old to Moſes: Go into <hi>Egypt;</hi> for thou canſt; I will be with thy mouth, I wili enable thee to do what thou canſt not. So truth ſpeaks now to you, <hi>Ludovic;</hi> do what you are able,
+<pb n="51" facs="tcp:97751:29"/> God will make thee do more then thou art able. For example: Thou ſitteſt at a full Table, and haſt eaten enough to renew thy ſtrength, and to ſatisfie thy hun<g ref="char:EOLhyphen"/>ger: Then comes in ſome diſh more delicate, made to provoke the appetite. Here thy fleſh in<g ref="char:EOLhyphen"/>ſtantly riſeth up and ſuggeſteth to thee ſuch a thought: It is a deli<g ref="char:EOLhyphen"/>cate meſs; if thou eat of it, it will be pleaſant. But the Spirit oppoſes the Fleſh, and thus ad<g ref="char:EOLhyphen"/>moniſheth. Take heed, <hi>Ludovic,</hi> of indulging thy pleaſure, there is poyſon in it. For firſt it cal<g ref="char:EOLhyphen"/>leth off thy mind from God, then which evil no evil can be greater; for whereas no man can ſerve two Maſters, thou canſt not ſerve God and pleaſure; becauſe plea<g ref="char:EOLhyphen"/>ſure oppreſſeth the ſoul and draws it down to the Earth, and ſepa<g ref="char:EOLhyphen"/>rates it from God. Next, in<g ref="char:EOLhyphen"/>temperance
+<pb n="52" facs="tcp:97751:30"/> hurts the body, ſo that if thou hadſt no ſoul, thou oughteſt even for thy bodies ſake to abſtain from immoderate eat<g ref="char:EOLhyphen"/>ing. I do not now require thee, not to be tempted with the al<g ref="char:EOLhyphen"/>lurements of the Fleſh, but not to obey them. But if you deny your ſelf to have power, not to obey them, you ſhall eaſily be refuſed. Suppoſe a man did give you one Floren to abſtain from ſuch a diſh, would you not ab<g ref="char:EOLhyphen"/>ſtain? And will you not abſtain for the truth? Do not you ſhew truth is of leſs value with you, then a peace of mony? or, ſup<g ref="char:EOLhyphen"/>poſe one threatned you with a blow on the face, unleſs you for<g ref="char:EOLhyphen"/>bear; Sure you would forbear. See, God threatens to ſtrike thy ſoul, and doſt thou not abſtain? Doſt thou not herein more high<g ref="char:EOLhyphen"/>ly eſteem thy ſoul, then thy bo<g ref="char:EOLhyphen"/>dy?
+<pb n="53" facs="tcp:97751:30"/> I ſay the ſame of the reſt. Thou wouldſt fornicate, but be<g ref="char:EOLhyphen"/>cauſe a Child is preſent, thou doſt not; ſee, God is preſent, and thou doſt it. Surely thou haſt not ſo muſt regard to the pre<g ref="char:EOLhyphen"/>ſence of God, as of a little Child. But if thou abſtaineſt for fear of humane puniſhment, and not of Divine, doeſt thou not prefer men above God? Thou art angry with one and wouldſt beat him, but dareſt not for fear of the magi<g ref="char:EOLhyphen"/>ſtrate, why doth not the fear of God keep thee in awe? If thou doſt eſteem God as much as men, why does the fear of God leſs prevail with thee then the fear of men? Thou doſt calumniate ano<g ref="char:EOLhyphen"/>ther, God ſees thy calumny, and doſt it thou? If men did ſee, thou wouldſt not do it. Run through all things, <hi>Ludovic,</hi> whoſoever does more for the love or fear of
+<pb n="54" facs="tcp:97751:31"/> men, or of any other thing, then of God, he doth more believe in men then in God.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>O my Federic, my conſci<g ref="char:EOLhyphen"/>ence witneſſeth to me that the things you ſay are right and true, and thence ariſeth ſorrow in my heart.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>What, when we confer<g ref="char:EOLhyphen"/>red about predeſtination, or free will; did you feel any ſuch ſad<g ref="char:EOLhyphen"/>neſs?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>None at all.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I believe you, <hi>Ludovic,</hi> for ſcience brings no ſadneſs, but rather gladneſs; being that, which leaves the old man unhurt. For although you know all myſteries, yet may you ſtill ſerve the Devil. Now when we treat of renoun<g ref="char:EOLhyphen"/>cing ones ſelf, the Fleſh is ſenſi<g ref="char:EOLhyphen"/>ble, ſhe muſt periſh; and ſhe doth as harlots uſe to do, when they are forſaken of young men, they
+<pb n="55" facs="tcp:97751:31"/> torment them with deſire, and by all meanes endeavor to re<g ref="char:EOLhyphen"/>tain them: So that harlot, the Fleſh, which hath bewitched all men with the cup of her impuri<g ref="char:EOLhyphen"/>ty, ſo often as ſhe perceiveth a man willing to depart from her, vexeth him with deſire, and leav<g ref="char:EOLhyphen"/>eth nothing unaſſayed, whereby ſhe may hold him faſt. Hence ariſeth grief, as great as the love of the Fleſh was. So likewiſe, if you muſt leave your country, ſuch as your love to your coun<g ref="char:EOLhyphen"/>try was, ſuch will be your ſor<g ref="char:EOLhyphen"/>row. Sin is our country (for in ſin hath our mother conceived us) which without ſorrow cannot be renounced. This ſorrow is that croſs of which he ſpeaketh: <hi>If any one will come after me, let him deny himſelf and take up his Croſs and follow me. And, if any man come unto me, and hate not
+<pb n="56" facs="tcp:97751:32"/> his Father, and Mother, and Wife, and Children; and Brethren, and Siſters, and his own Life alſo, he cannot be my Diſciple. And he that beareth not his Croſs and fol<g ref="char:EOLhyphen"/>loweth me cannot be my Diſciple.</hi> That you may underſtand what the hatred of ones ſelf is, and what Croſs it brings, weigh it with the hatred of another. If you <hi>Ludovic,</hi> ſhould have one in deadly hatred, how would you be affected toward him, or what would you do to him?</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Truly I would heartily wiſh him all evil, envy him all good, grieve at his proſperity, rejoyce at his adverſity. If one ſhould tell me any ill news of him, I ſhould be glad and receive the Meſſenger cur<g ref="char:EOLhyphen"/>teouſly, uſe him kindly and reward him. Farther, I would love and do good to my enemies enemies, and I would hate and do ill to my ene<g ref="char:EOLhyphen"/>mies
+<pb n="57" facs="tcp:97751:32"/> friends. All the words and deeds of my enemy I would watch and carp, and by all poſſible wayes and means, yea often with my own harm would I hurt him. Laſtly, I would kill him, if I could, not with an ordinary but moſt cruel death, and blot out his memory from the Earth.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>Now, <hi>Ludovic,</hi> turn this hatred upon your ſelf. For you are your own capital enemy, and ought to bear a capital hatred a<g ref="char:EOLhyphen"/>gainſt your ſelf, not againſt o<g ref="char:EOLhyphen"/>thers, who are not able to kill thee, that is, thy ſoul. Where<g ref="char:EOLhyphen"/>fore you muſt wiſh to your ſelf, that is, to your Fleſh, all evil, e<g ref="char:EOLhyphen"/>ven death it ſelf, and envy all good to it: You muſt grieve at the welfare and rejoyce at the e<g ref="char:EOLhyphen"/>vil thereof. If any one bring you ill news of the Fleſh, you muſt rejoyce in the Spirit, and reward
+<pb n="58" facs="tcp:97751:33"/> the meſſenger. Further you muſt deviſe and act all things againſt your ſelf, which men uſe to do againſt ſuch as they hate with an irreconcilable hatred, and never reſt till the Fleſh be deſtroyed. And becauſe no man ever hated his own Fleſh, as S. <hi>Paul</hi> ſaith, you muſt with all care make a divorce and put it from you, that it may be no longer yours, the Spirit being taken in the place, which hath no more agreement with the Fleſh than fire with water.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>O my Federic, let me con<g ref="char:EOLhyphen"/>feſs the Truth, you have ſeemed to me to ſpeak ſtones.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>I believe it, <hi>Ludovic,</hi> and it muſt needs be ſo. But be of good cheer, and now begin to love me in the Spirit, becauſe I am an enemy to your Fleſh. For this is for your good, nor
+<pb n="59" facs="tcp:97751:33"/> can you be ſafe, while your Fleſh is living. Wherefore, <hi>Ludovic,</hi> take care as you tender your ſal<g ref="char:EOLhyphen"/>vation, to hate your ſelf and re<g ref="char:EOLhyphen"/>nounce your Fleſh. And I will ſhew you an example of this re<g ref="char:EOLhyphen"/>nouncing. If one deliver himſelf up to you to be your ſervant, he renounceth himſelf, that is, his own liberty and will, ſo that hence<g ref="char:EOLhyphen"/>forth, he ſerves not his own, but your will and pleaſure. Often when he wouid ſleep, he muſt watch, at his maſters command: he muſt ſtay within, when he would go abroad; work, when he would play. In a word, he ſo looſeth his own freedome, that if he be asked, what he is about to do, or what is his will, he anſwers what pleaſes the Maſter, in whoſe power he is. So it is with us, <hi>Ludovic,</hi> if we be Chriſt's, who hath bought us with a great price,
+<pb n="60" facs="tcp:97751:34"/> we are not in our own power, or at our own pleaſure but Chriſt's. Therefore we ought not to do what we pleaſe, but what pleaſeth him. And juſtly. For, if he being the way, the truth and the life, ſub<g ref="char:EOLhyphen"/>mitted his will to the will of his Father, ſo that he ſaid, not my will but thine be done; what is it fit for us to do, who are full of errors and miſtakes? Wherefore, when you are ready to be angry without a cauſe, reſtrain your an<g ref="char:EOLhyphen"/>ger at the command of Chriſt: When you would indulge and give your ſelf to pleaſure, you muſt abſtain and bear grief: If you would be revenged, you muſt forgive; if you would do evil to any one, do him good: You muſt weep when you would laugh, faſt when you would feaſt; bear diſ<g ref="char:EOLhyphen"/>grace when you deſire honor; po<g ref="char:EOLhyphen"/>verty, when riches. Laſtly, you
+<pb n="61" facs="tcp:97751:34"/> muſt ſo depart from your own will, that if you be asked, what you would, you may anſwer, no<g ref="char:EOLhyphen"/>thing but what Chriſt willeth. And all this you ſhall do by Faith: For unleſs you did believe, you would not doe; really 'tis Faith by which men do all things. Now, we muſt underſtand, what S. <hi>Paul</hi> meanes by that ſaying of his, we muſt go from Faith to Faith. There is a firſt and imperfect Faith, where<g ref="char:EOLhyphen"/>by a man is driven to renounce himſelf: This being encreaſed, the man perſevering; becomes dayly greater, till at length he comes to ſuch perfection that he doth believe all Gods Words, precepts, promiſes, threats, as certainly as you believe it will be day after night. Hence ariſeth that Omni<g ref="char:EOLhyphen"/>potence, whereby he removeth Mountains, thus there is no pride ſo loſty, no avarice ſo great, no
+<pb n="62" facs="tcp:97751:35"/> luxury ſo vaſt; briefly, no vice at all of ſuch a magnitude, which this Faith cannot remove, pull down and deſtroy. But before a man can come to that compleat victory, many ſharp things are to be endured in the way, in re<g ref="char:EOLhyphen"/>nouncing himſelf, without which aſperity there is no attaining of that virtue: As a fig, or a grape comes not to his ſweetneſs, but after ſharpneſs. Now, <hi>Ludovic,</hi> becauſe I have not yet gotten the victory, but ſweat in the combat of renouncing my ſelf, and am yet far from the Crown, I will ſay no more of the victory, being a thing to me unknown. But in the fight if you will be my fellow Soldier, I will (by Gods help) give you the beſt aſſiſtance I can.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>I truly, though my Fleſh trembles and is afraid, am enclined by the Spirit of my mind, and re<g ref="char:EOLhyphen"/>ſolve
+<pb n="63" facs="tcp:97751:35"/> to follow you. For I ſee there is no other way of ſafety, then for a man to go forth of his own Nature, that he may put on the nature of Chriſt, and to take care, ſtudy, con<g ref="char:EOLhyphen"/>tend and ſweat, that he may reſtore the image after which we were cre<g ref="char:EOLhyphen"/>ated. Therefore to Gods glory be it, and to my ſalvation, at this inſtant I give up my ſelf, to be your compa<g ref="char:EOLhyphen"/>nion in this way, under the conduct of Almighty God.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Fed.</speaker>
+               <p>And I give thanks to God, for the good reſolution he hath put into your heart, praying him to finiſh the work he hath begun in you, and bring you to this, that as you have ſerved unrighteouſ<g ref="char:EOLhyphen"/>neſs, ſo you may be henceforth the ſervant of righteouſneſs: Which he will do undoubtedly, unleſs you grieve, and by diſobedience reject his Spirit. Laſt of all, I adviſe you to have a rich Faith,
+<pb n="64" facs="tcp:97751:36"/> being you believe in him who is rich in mercy. Very often have men offended, by too ſparing and narrow a belief of Gods power and goodneſs. <hi>Abraham</hi> and <hi>Sa<g ref="char:EOLhyphen"/>rah</hi> are reprehended for laughing, as if it were ridiculous for God to promiſe them a Son, being both a<g ref="char:EOLhyphen"/>ged and <hi>Sarah</hi> barren. <hi>Zacharias</hi> the Father of <hi>John Baptiſt,</hi> is ſtruck dumb for a time, becauſe he be<g ref="char:EOLhyphen"/>lieved not the Angels word. We truly are more propenſe to imitate the weak Faith (not to ſay incre<g ref="char:EOLhyphen"/>dulity) of pious men, then to be<g ref="char:EOLhyphen"/>lieve with a rich Faith and com<g ref="char:EOLhyphen"/>pleat. Why do we not rather fol<g ref="char:EOLhyphen"/>low them, who dared to believe all things? <hi>Elizaeus</hi> was bold to ask, <hi>Elias</hi> Spirit to be doubled on him, a great matter by the teſtimony of <hi>Elias</hi> himſelf, yet he obtained it. So ſure it is, no Faith can be ſo great, but the benignity and pow<g ref="char:EOLhyphen"/>er
+<pb n="65" facs="tcp:97751:36"/> of God is greater. All things (ſaith he) are poſſible to the believ<g ref="char:EOLhyphen"/>er. And whatſoever ye ſhall ask, believe you ſhall obtain, and you ſhall obtain it. Remember that ſaying of <hi>Elizaeus</hi> who beſpeaks the poor Widow thus: Go borrow veſ<g ref="char:EOLhyphen"/>ſels of thy neighbors, as many as thou canſt, God will fill them all. So let us, <hi>Ludovic,</hi> do our Endea<g ref="char:EOLhyphen"/>vor and get a faith capable of all good things, and let us confident<g ref="char:EOLhyphen"/>ly believe, God is willing and able to make us love him with all our heart, all our mind, all our ſtrength; and will out of his goodneſs give us all things more abundantly then we can conceive, in the name of his Son Jeſus Chriſt our Lord: To whom be all Honor and Glory and Dominion for ever and ever.</p>
+            </sp>
+            <sp>
+               <speaker>Lud.</speaker>
+               <p>
+                  <hi>Amen.</hi>
+               </p>
+            </sp>
+         </div>
+      </body>
+      <back>
+         <div type="dedication">
+            <pb facs="tcp:97751:37"/>
+            <pb n="67" facs="tcp:97751:37"/>
+            <head>Sebaſtianus Caſtellio TO Bonifacius Amerbachius A Famous Councillor.</head>
+            <p>BEing the admirable frame of Heaven and Earth, and the perpetual viciſſitude of Night and Day, do continually ſet forth the Praiſes of God All-mighty and All-merciful; nor is there any Nation of the World, that doth not hear the Speech and Doctrine of them; it followeth, that the God, who is Maker and Governor of this <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſe, ought to be Worſhipped and Praiſed by all Men every where. And, had not men degenerated from
+<pb n="68" facs="tcp:97751:38"/> that goodneſs of Nature, wherein they were created, they might have learned Piety and Religion, from this making of the World, and from ſo great and perpetual benefits of God towards them; but becauſe, being corrupted by the tranſgreſſion of the firſt man, they run headlong into all Sin, and ſo unto Death, it pleaſed God, (in oppoſition to this licenſe and miſchief) to deliver a Law of Holy living, which whoſo<g ref="char:EOLhyphen"/>ever would obey, they might avoid the evil of Sin and puniſhment, and attain unto a happy life.</p>
+            <p>Now, becauſe that Law, nei<g ref="char:EOLhyphen"/>ther was extant among all Na<g ref="char:EOLhyphen"/>tions, nor was able (through their obſtinacy) to retain the <hi>Iſrae<g ref="char:EOLhyphen"/>lites,</hi> to whom was given, with<g ref="char:EOLhyphen"/>in the compaſs of their duty; God at laſt ſent his Son into the World, who might take away the Partiti<g ref="char:EOLhyphen"/>on Wall, and ſpred his Goſpel a<g ref="char:EOLhyphen"/>mongſt
+<pb n="69" facs="tcp:97751:38"/> all Mankind, and Redeem us by his Blood, and by the in<g ref="char:EOLhyphen"/>ſtinct of his Divine Spirit ſweet<g ref="char:EOLhyphen"/>ly draw us into the right and the good way, and ſo conduct us to bleſſ<g ref="char:EOLhyphen"/>edneſs eternal.</p>
+            <p>Wherefore, being obliged by ſo great beneficence of God, 'tis not only commendable, but (if we would be Saved) neccſſary for us to bear grateful Minds, and to our power anſwer his benefits by doing our duty to him. And our duty is (as Chriſt our Maſter and Saviour hath taught us in Brief) to love God with all our Heart, with all our Mind, and with all our Strength, and to love men as well as we love our ſelves. And, whereas it is the part of humane love, to do good to all as you are able, and to hurt none; Divine love, becauſe we can do no good to God, exacteth at our hands,
+<pb n="70" facs="tcp:97751:39"/> that every day we be employed in celebrating his goodneſs, and Sing<g ref="char:EOLhyphen"/>ing Praiſes to his Name. Whoſo<g ref="char:EOLhyphen"/>ever is endued with this Love, is carried unto God with ſuch a ſtrong inclination and deſire, that he e<g ref="char:EOLhyphen"/>ſteemeth Riches, Honors, Glory, (for which others do and ſuffer all things) nothing worth; and is ſo much de<g ref="char:EOLhyphen"/>lighted in God's Law, that he Me<g ref="char:EOLhyphen"/>ditates upon it Day and Night, thinking all time loſt, which is not beſtowed upon him, from whom all good things deſcend.</p>
+            <p>If this were deeply fixed in our minds, ſurely we ſhould not lay out ſo great a Portion of ſo ſhort a life upon thoſe Arts and Matters, which do ſo little conduce either to the Glory of God, or the profit of Mankind; but not do it our ſelves wholly to this heavenly <hi>Philoſophy,</hi> or <hi>Sophy</hi> rather, that is, to Wiſ<g ref="char:EOLhyphen"/>dom. For indeed, this Diſcipline
+<pb n="71" facs="tcp:97751:39"/> is not (as ſome imagine) ſuch as cannot be well learned without the aid of profane Letters. It were ab<g ref="char:EOLhyphen"/>ſurd, if not impious, being pro<g ref="char:EOLhyphen"/>fane Wits (whoſe Authors were not only ignorant of God but moſt of them evil men) can be without this Heavenly Doctrine, to ſay, the Chriſtian Doctrine cannot conſiſt without them, whoſe Maſters pro<g ref="char:EOLhyphen"/>nounceth St. <hi>Paul</hi> fooliſh and un<g ref="char:EOLhyphen"/>learned. For, as God would have nothing in the Sacred Books which is not pertinent to his Worſhip; ſo is there nothing wanting, which is pertinent. We muſt not believe a Maſter infinitely perfect to have fur<g ref="char:EOLhyphen"/>niſhed us with maimed and imperfect inſtructions.</p>
+            <p>Yet I ſay not this, as if I thought the uſe of profane Letters were to be laid aſide; for if one learn in them the Nature of things,
+<pb n="72" facs="tcp:97751:40"/> and the actions of men, to this end that he may adore and Honor God, the Author and Governor of them, he does well, in my judgment, and ſeemeth to be con<g ref="char:EOLhyphen"/>verſant, not in a profane, but a Sacred work: becauſe he ſo fol<g ref="char:EOLhyphen"/>lows that Study, that it may not hinder, but ſerve and advance Religion. But to have good man<g ref="char:EOLhyphen"/>ners, and the right way of life may be learned either from the trifles of Poets, or from Sentences of Phi<g ref="char:EOLhyphen"/>loſophers, being uncertain, and moſt part falſe and contrary each to other: this were all one, as if men ſince the Invention of Guns, would Fight Battails with their Fiſts. I conclude therefore, my hon<g ref="char:EOLhyphen"/>our'd <hi>Amerbachius,</hi> that the ſa<g ref="char:EOLhyphen"/>cred Scriptures are to be turned and ſtudied Night and Day; ſo ſtudied, that both we our ſelves
+<pb n="73" facs="tcp:97751:40"/> may frame our lives according to their preſcripts, and teach others committed to our truſt to do like<g ref="char:EOLhyphen"/>wiſe.</p>
+            <closer>
+               <dateline>Baſil. <date>Aug. 10. An. 1547.</date>
+               </dateline>
+            </closer>
+            <trailer>THE END.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>
